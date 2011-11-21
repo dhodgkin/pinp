@@ -25,10 +25,12 @@
 
   <title></title>
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Damien Hodgkin">
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/style.css">
   <link type="text/plain" rel="author" href="humans.txt" />
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
@@ -37,10 +39,13 @@
 
 <div id="container">
   <header>
-
+    <img src="img/phibes.jpg">
   </header>
   <div id="main" role="main">
-
+    <section>
+      <h2>Dr. Phibes</h2>
+      <p>A small framework for PHP 5.3</p>
+    </section>
   </div>
   <footer>
     <a href="http://www.w3.org/html/logo/"><img src="img/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a>

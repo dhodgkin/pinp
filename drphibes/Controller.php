@@ -1,14 +1,16 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
  * Controller.php The drphibes controller base class.
  *
- *  drphibes is a small php framework that works similar to
- *  Sinatra the Ruby web framework.
+ *  drphibes is a small php framework
  *
- * @author Damien Hodgkin <dracul01@gmail.com>
- * @version 0.1a
- * @copyright 2011 Damien Hodgkin
- * @package default
+ * @package     DrPhibes
+ * @author      Damien Hodgkin <dracul01@gmail.com>
+ * @copyright   Copyright (c) 2011, FourElements Development
+ * @license     New BSD (http://codeigniter.com/user_guide/license.html)
+ * @link        http://dhodgkin.us
+ * @since       Version 1.0
+ * @filesource
  */
 
 class DP_Controller {
@@ -24,5 +26,5 @@ class DP_Controller {
 
 }
 
-//
-//
+/* End of file Controller.php */
+/* Location: ./drphibes/Controller.php */

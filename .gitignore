@@ -1,0 +1,15 @@
+# minimal Rails specific artifacts
+db/*.sqlite3
+db/*.db
+/log/*
+tmp/*
+ci/*
+
+**.orig
+.DS_Store
+
+/nbproject/
+/*.sublime-project
+/*.sublime-workspace
+/*.tmproj
+**.swp

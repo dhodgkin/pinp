@@ -39,7 +39,7 @@
 
 <div id="container">
   <header>
-    <img src="img/phibes.jpg">
+    <!--<img src="img/phibes.jpg">-->
   </header>
   <div id="main" role="main">
     <section>

@@ -44,3 +44,32 @@ ul li {
 
 .to_right {
   float: right; }
+
+.large-button {
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+height: 40px;
+padding: 0 20px;
+font-size: 20px;
+line-height: 40px;
+}
+
+.button {
+background: #B9DE96;
+background: -moz-linear-gradient(top,#B9DE96 0,#91CB58 100%);
+background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#B9DE96),color-stop(100%,#91CB58));
+background: -webkit-linear-gradient(top,#B9DE96 0,#91CB58 100%);
+background: -o-linear-gradient(top,#B9DE96 0,#91CB58 100%);
+background: -ms-linear-gradient(top,#B9DE96 0,#91CB58 100%);
+background: linear-gradient(top,#B9DE96 0,#91CB58 100%);
+border: 1px solid #70A23E!important;
+cursor: hand;
+cursor: pointer;
+display: inline-block;
+color: white;
+font-weight: bold;
+text-decoration: none;
+text-shadow: #777 0 1px 0;
+-webkit-appearance: none;
+}

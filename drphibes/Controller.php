@@ -1,14 +1,14 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * Controller.php The drphibes controller base class.
+ * Controller.php The pinp controller base class.
  *
- *  drphibes is a small php framework
+ *  pinp is a small php framework
  *
- * @package     DrPhibes
+ * @package     pinp
  * @author      Damien Hodgkin <dracul01@gmail.com>
  * @copyright   Copyright (c) 2011, FourElements Development
- * @license     New BSD (http://codeigniter.com/user_guide/license.html)
- * @link        http://dhodgkin.us
+ * @license     BSD License http://www.opensource.org/licenses/bsd-license.php
+ * @link        http://pinp.us
  * @since       Version 1.0
  * @filesource
  */

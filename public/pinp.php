@@ -1,15 +1,15 @@
 <?php
 /**
- * index.php
+ * pinp.php
  *
- *  drphibes is a small php framework
+ *  pinp is a small php framework
  *
- * @package     DrPhibes
+ * @package     pinp
  * @author      Damien Hodgkin <dracul01@gmail.com>
  * @copyright   Copyright (c) 2011, FourElements Development
- * @license     New BSD (http://codeigniter.com/user_guide/license.html)
- * @link        http://dhodgkin.us
- * @since       Version 1.0
+ * @license     BSD License http://www.opensource.org/licenses/bsd-license.php
+ * @link        http://pinp.us
+ * @since       Version 0.1
  * @filesource
  */
 ?>
@@ -43,7 +43,7 @@
   </header>
   <div id="main" role="main">
     <section>
-      <h2>Dr. Phibes</h2>
+      <h2>Pinp</h2>
       <p>A small framework for PHP 5.3</p>
     </section>
   </div>
@@ -78,6 +78,6 @@
 </html>
 
 <?php
-/* End of file index.php */
-/* Location: ./public/index.php */
+/* End of file pinp.php */
+/* Location: ./public/pinp.php */
 ?>

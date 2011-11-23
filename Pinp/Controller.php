@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * Controller.php The pinp controller base class.
+ * Controller.php The Pinp controller base class.
  *
- *  pinp is a small php framework
+ *  Pinp is a small php framework
  *
  * @package     pinp
  * @author      Damien Hodgkin <dracul01@gmail.com>
@@ -25,6 +25,3 @@ class DP_Controller {
 	}
 
 }
-
-/* End of file Controller.php */
-/* Location: ./drphibes/Controller.php */

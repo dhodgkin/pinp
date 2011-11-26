@@ -13,6 +13,7 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
+  <?php // $pinp->view->linkTo(array('href' => 'reset', 'type' => 'css')); ?>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/style.css">
@@ -23,15 +24,20 @@
 
 <div id="container">
   <header>
-    <!--<img src="img/phibes.jpg">-->
+    <?php // $pinp->view->renderPartial('header'); ?>
   </header>
   <div id="main" role="main">
     <section>
+      <?php 
+        // $pinp->view->yield(); 
+        echo "Test";
+      ?>
       <h2>Pinp</h2>
       <p>A small framework for PHP 5.3</p>
     </section>
   </div>
   <footer>
+    <?php // $pinp->view->renderPartial('footer'); ?>
     <a href="http://www.w3.org/html/logo/"><img src="img/html5-badge-h-css3-semantics.png" width="82" height="32" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a>
     <br>
     <a href="humans.txt"><img src="img/humanstxt-transparent-color.png" alt="humanstxt"></a>

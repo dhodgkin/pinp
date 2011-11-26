@@ -1,4 +1,4 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
  * Pinp.php The Pinp base class.
  *
@@ -18,4 +18,6 @@ require 'drphibes/Controller.php';
 class Pinp() {
     
 }
-?>
+
+/* End of file Pinp.php */
+/* Location: ./Pinp/Pinp.php */

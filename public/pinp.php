@@ -15,6 +15,12 @@
 
 require $PINPPATH . "Pinp.php";
 
+<<<<<<< HEAD
+=======
+  <title>Pinp: a small php framework</title>
+  <meta name="description" content="">
+  <meta name="author" content="Damien Hodgkin">
+>>>>>>> 40a0dfb... small changes in pinp.php, removed index.php
 
 
 <<<<<<< HEAD

@@ -13,10 +13,26 @@
  * @filesource
  */
 
-require 'drphibes/Controller.php';
-
 class Pinp() {
-    
+
+    /**
+     * Slim auto-loader
+     *
+     * This method lazy-loads class files when a given class if first used.
+     * Class files must exist in the same directory as this file and be named
+     * the same as its class definition (excluding the dot and extension).
+     *
+     * @return void
+     */
+    public static function autoload( $class ) {
+        if ( strpos($class, 'Slim') !== 0 ) {
+            return;
+        }
+        $file = dirname(__FILE__) . '/' . str_replace('_', DIRECTORY_SEPARATOR, substr($class,5)) . '.php';
+        if ( file_exists($file) ) {
+            require $file;
+        }
+    }
 }
 
 /* End of file Pinp.php */

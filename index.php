@@ -1,1 +1,1 @@
-<?php include('public/pinp.php'); ?>
+<?php //include('public/pinp.php'); ?>

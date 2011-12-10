@@ -1,0 +1,3 @@
+    <div class="fcopy"><p>Copyright &copy; 2011 FourElements Development.<br>All Rights Reserved.</p></div>
+    <div class="fimg"><a href="http://www.w3.org/html/logo/"><img src="img/html5-badge-h-css3-semantics.png" width="82" height="32" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a></div>
+    <div class="fimg humanimg"><a href="humans.txt"><img src="img/humanstxt-transparent-color.png" alt="humanstxt"></a></div>

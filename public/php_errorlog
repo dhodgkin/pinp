@@ -1,0 +1,18 @@
+[09-Dec-2011 12:32:45] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'Pinp.php' (include_path='.:/usr/local/php53/pear') in /home/dhodgkin/public_html/pinp/public/pinp.php on line 17
+[09-Dec-2011 14:14:04] PHP Fatal error:  Class 'PinpView' not found in /home/dhodgkin/public_html/pinp/public/pinp.php on line 20
+[09-Dec-2011 14:20:38] PHP Fatal error:  Class 'View' not found in /home/dhodgkin/public_html/pinp/public/pinp.php on line 20
+[09-Dec-2011 14:33:56] PHP Notice:  Undefined variable: viewClass in /home/dhodgkin/public_html/pinp/public/pinp.php on line 28
+[09-Dec-2011 14:33:56] PHP Fatal error:  Class name must be a valid object or a string in /home/dhodgkin/public_html/pinp/public/pinp.php on line 28
+[09-Dec-2011 14:34:57] PHP Fatal error:  Using $this when not in object context in /home/dhodgkin/public_html/pinp/public/pinp.php on line 28
+[09-Dec-2011 14:35:12] PHP Notice:  Undefined property: Pinp::$viewClass in /home/dhodgkin/public_html/pinp/public/pinp.php on line 28
+[09-Dec-2011 14:35:12] PHP Fatal error:  Class name must be a valid object or a string in /home/dhodgkin/public_html/pinp/public/pinp.php on line 28
+[09-Dec-2011 16:19:45] PHP Notice:  Undefined variable: viewClass in /home/dhodgkin/public_html/pinp/Pinp/Pinp.php on line 56
+[09-Dec-2011 19:35:37] PHP Notice:  Undefined variable: template in /home/dhodgkin/public_html/pinp/Pinp/View.php on line 22
+[10-Dec-2011 09:44:16] PHP Warning:  str_replace() expects at least 3 parameters, 0 given in /home/dhodgkin/public_html/pinp/public/pinp.php on line 69
+[10-Dec-2011 09:44:16] PHP Notice:  Undefined variable: pinp in /home/dhodgkin/public_html/pinp/app/views/index.html.php on line 27
+[10-Dec-2011 09:44:16] PHP Notice:  Trying to get property of non-object in /home/dhodgkin/public_html/pinp/app/views/index.html.php on line 27
+[10-Dec-2011 09:44:16] PHP Fatal error:  Call to a member function partial() on a non-object in /home/dhodgkin/public_html/pinp/app/views/index.html.php on line 27
+[10-Dec-2011 09:46:03] PHP Warning:  str_replace() expects at least 3 parameters, 0 given in /home/dhodgkin/public_html/pinp/public/pinp.php on line 69
+[10-Dec-2011 09:46:03] PHP Notice:  Undefined variable: app in /home/dhodgkin/public_html/pinp/app/views/index.html.php on line 27
+[10-Dec-2011 09:46:03] PHP Notice:  Trying to get property of non-object in /home/dhodgkin/public_html/pinp/app/views/index.html.php on line 27
+[10-Dec-2011 09:46:03] PHP Fatal error:  Call to a member function partial() on a non-object in /home/dhodgkin/public_html/pinp/app/views/index.html.php on line 27

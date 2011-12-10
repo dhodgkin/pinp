@@ -1,7 +1,6 @@
 <div id="ayb">
     <p>Sombody set us up the bomb!!</p>
     <p>HA HA HA! All your base are belong to us!</p>
-    <pre><?php Pinp_View::linkTo(array('href' => 'reset', 'type' => 'css')); ?></pre>
 </div>
 
 <div id="pinpfork"><a href="https://github.com/FourElementsDevelopment/pinp">Fork it!</a> and help us get "Pinp of the Year"</div>

@@ -42,7 +42,7 @@ class Pinp_View {
 
     /* render the built link */
     public static function linkTo( $data ) {
-        echo $this->prepareLink($data);
+        echo $data;
     }
 
     /* process array of data and builds <link> and <a> tags */

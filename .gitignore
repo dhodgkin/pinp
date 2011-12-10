@@ -12,3 +12,7 @@ ci/*
 /*.sublime-workspace
 /*.tmproj
 **.swp
+
+public/php_errorlog
+
+/cgi-bin/

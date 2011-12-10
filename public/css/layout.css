@@ -14,6 +14,17 @@ body {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px; }
 
+#ayb {
+  padding: 5px 10px; }
+#pinpfork {
+  background-color: #909b90;
+  padding: 5px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; }
+  #pinpfork a:hover { color: #202020;}
+  #pinpfork a:visited { color: #303030;}
+#gitlive {}
+
 #footer {
   text-align: center;
   color: #909090; }

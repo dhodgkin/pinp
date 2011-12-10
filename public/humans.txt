@@ -1,6 +1,6 @@
 /* TEAM */
   Developer/Designer/Owner: Damien Hodgkin
-  Site: http://dhodgkin.us
+  Site: http://pinp.us
   Twitter: @dthodgkin
   Location: US
 

@@ -53,7 +53,7 @@ class Pinp_View {
             if ($data['type'] == 'css') {
                 $link = "<link href='" . $data['type'] . "/" 
                         . $data['href'] . "." . $data['type']
-                        . " rel='stylesheet' type='text/" . $data['type'] . "'>";
+                        . "' rel='stylesheet' type='text/" . $data['type'] . "'>";
                 return $link;
             }
         }

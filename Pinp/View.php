@@ -42,11 +42,11 @@ class Pinp_View {
 
     /* render the built link */
     public static function linkTo( $data ) {
-        print_r($data);
+        echo self::prepareLink($data);
     }
 
     /* process array of data and builds <link> and <a> tags */
-    private function prepareLink( $data ) {
+    public static function prepareLink( $data ) {
         if (!is_array($data)) {
             return;
         } else {

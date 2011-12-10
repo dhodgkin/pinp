@@ -13,7 +13,7 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <?php Pinp_View::linkTo(array('href' => 'reset', 'type' => 'css')); ?>
+  <?php //Pinp_View::linkTo(array('href' => 'reset', 'type' => 'css')); ?>
   <!-- link rel="stylesheet" href="css/reset.css" -->
   <link rel="stylesheet" href="css/style.css">
   <link type="text/plain" rel="author" href="humans.txt" />

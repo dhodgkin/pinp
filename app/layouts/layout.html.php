@@ -13,9 +13,8 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <?php // $pinp->view->linkTo(array('href' => 'reset', 'type' => 'css')); ?>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/layout.css">
+  <?php Pinp_View::linkTo(array('href' => 'reset', 'type' => 'css')); ?>
+  <!-- link rel="stylesheet" href="css/reset.css" -->
   <link rel="stylesheet" href="css/style.css">
   <link type="text/plain" rel="author" href="humans.txt" />
   <script src="js/libs/modernizr-2.0.6.min.js"></script>

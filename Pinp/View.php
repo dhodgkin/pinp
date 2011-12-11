@@ -63,6 +63,15 @@ class Pinp_View {
             return $link;
         }
     }
+
+    /* render script tags */
+    public static function script( $file ) {
+        if (!isset($file)) {
+            return;
+        } else {
+            return $script = "<script src='js/" . $file . "' type='text/javascript'></script>";
+        }
+    }
 }
 
 /* End of file PinpView.php */

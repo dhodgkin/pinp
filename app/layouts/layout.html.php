@@ -18,7 +18,7 @@
   <!-- link type="text/plain" rel="author" href="humans.txt" -->
   <?php Pinp_View::linkTo('link', array('href' => 'humans.txt', 'type' => 'plain', 'rel' => 'author')); ?>
 
-  <script src="js/libs/modernizr-2.0.6.min.js" type="text/javascript"></script>
+  <?php Pinp_View::script('libs/modernizr-2.0.6.min.js');
 </head>
 <body>
 

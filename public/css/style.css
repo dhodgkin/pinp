@@ -26,7 +26,8 @@ header p { padding-top: 10px; }
 #ayb { padding: 5px 10px; }
 
 #pinpfork { 
-  background-color: #909b90; padding: 5px 10px; text-align: center; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+  background-color: #909b90; padding: 5px 10px; text-align: center; margin-top: 10px;
+  -moz-border-radius: 5px; -webkit-border-radius: 5px; }
   #pinpfork a { color: #2b2b2b; }
   #pinpfork a:hover { color: #000000; }
   #pinpfork a:visited { color: #303530; }
@@ -34,8 +35,9 @@ header p { padding-top: 10px; }
 #gitlive {}
 
 article {
-  border: 1px solid #eee;
-  border-top: none; padding: 15px 10px; color: #e2e6df; background: #4b4b4b; }
+  border: 1px solid #eee; margin-top: 10px; padding: 15px 10px; 
+  color: #e2e6df; background: #4b4b4b; }
+article h3 { border-bottom: 1px solid #777; margin: 0 0 10px 0; }
 article.complete { background: #373; }
 article span { font-size: 0.8em; }
 .meta { font-size: 10px; font-style: italic; color: #888; }

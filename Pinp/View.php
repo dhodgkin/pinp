@@ -41,21 +41,26 @@ class Pinp_View {
     }
 
     /* render the built link */
-    public static function linkTo( $data ) {
-        echo self::prepareLink($data);
+    public static function linkTo( $type, $data ) {
+        echo self::prepareLink($type, $data);
     }
 
     /* process array of data and builds <link> and <a> tags */
-    public static function prepareLink( $data ) {
-        if (!is_array($data)) {
+    public static function prepareLink( $type, $data ) {
+        if (!is_array($data) && !isset($type)) {
             return;
         } else {
-            if ($data['type'] == 'css') {
+            if ($type == 'link' && $data['type'] == 'css') {
                 $link = "<link href='" . $data['type'] . "/" 
                         . $data['href'] . "." . $data['type']
                         . "' rel='stylesheet' type='text/" . $data['type'] . "'>";
-                return $link;
             }
+
+            if ($type == 'link' && $data['type'] == 'plain') {
+                $link = "<link href='" . $data['href'] . "' rel='" . $data['rel']
+                        . "' type='text/" . $data['type'] . "'>";
+            }
+            return $link;
         }
     }
 }

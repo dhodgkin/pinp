@@ -6,20 +6,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <title>Pinp: a small php framework</title>
-  <meta name="description" content="">
+  <meta name="description" content="Pinp: A small framework for PHP 5.3">
   <meta name="author" content="Damien Hodgkin">
-
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <?php Pinp_View::linkTo(array('href' => 'reset', 'type' => 'css')); ?>
-  <?php Pinp_View::linkTo(array('href' => 'style', 'type' => 'css')); ?>
+  <title>Pinp: a small php framework</title>
 
-  <!-- link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css" -->
-  <link type="text/plain" rel="author" href="humans.txt" />
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <?php Pinp_View::linkTo('link', array('href' => 'reset', 'type' => 'css')); ?>
+  <?php Pinp_View::linkTo('link', array('href' => 'style', 'type' => 'css')); ?>
+
+  <!-- link type="text/plain" rel="author" href="humans.txt" -->
+  <?php Pinp_View::linkTo('link', array('href' => 'humans.txt', 'type' => 'plain', 'rel' => 'author')); ?>
+
+  <script src="js/libs/modernizr-2.0.6.min.js" type="text/javascript"></script>
 </head>
 <body>
 

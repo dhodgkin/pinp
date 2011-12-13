@@ -1,4 +1,4 @@
-<?php //if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
  * PinpView.php View class
  *
@@ -14,10 +14,12 @@
  */
 
 class Pinp_View {
-    public function __construct() {}
+    public function __construct( $template ) {
+        echo $this->display($template);
+    }
 
     public function display( $template ) {
-        echo $this->render('layout', $template);
+        return $this->render('layout', $template);
     }
 
     public static function partial( $template ) {
@@ -31,7 +33,6 @@ class Pinp_View {
 
     /* prepare the template, clean it up and ship it out for displaying */
     public static function render( $type, $template ) {
-        //$file = dirname(__FILE__) . '/' . str_replace('_', DIRECTORY_SEPARATOR, substr($class,4)) . '.php';
         $file = "../app/" . $type . "s/" . $template . ".php";
         if ( file_exists($file) ) {
             ob_start();
@@ -39,13 +40,12 @@ class Pinp_View {
             return ob_get_clean();
         }
     }
-
+    
     /* render the built link */
     public static function linkTo( $type, $data ) {
         echo self::prepareLink($type, $data);
     }
 
-    /* process array of data and builds <link> and <a> tags */
     public static function prepareLink( $type, $data ) {
         if (!is_array($data) && !isset($type)) {
             return;
@@ -64,7 +64,6 @@ class Pinp_View {
         }
     }
 
-    /* render script tags */
     public static function script( $file ) {
         if (!isset($file)) {
             return;

@@ -26,17 +26,18 @@ header p { padding-top: 10px; }
 #ayb { padding: 5px 10px; }
 
 #pinpfork { 
-  background-color: #606860; padding: 5px 10px; text-align: center; margin-top: 10px;
-  -moz-border-radius: 5px; -webkit-border-radius: 5px; }
-  #pinpfork a { color: #0b0b0b; }
-  #pinpfork a:hover { color: #bbbbbb; text-shadow: 0 0 5px #eee; }
-  #pinpfork a:visited { color: #0b0b0b; }
+  background-color: #606860; padding: 5px 10px; text-align: center; font-weight: bold;
+    margin-top: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    text-shadow: 0 0 5px #222; }
+  #pinpfork a { color: #aaa; font-weight: bold;}
+  #pinpfork a:hover { color: #222; }
+  #pinpfork a:visited { color: #aaa; }
 
 #gitlive {}
 
 article {
   border: 1px solid #eee; margin-top: 10px; padding: 15px 10px; 
-  color: #f2f6ff; background: #424242; }
+  color: #f2f6ff; background: #424242; text-shadow: 0 0 5px #222; }
 article h3 { border-bottom: 1px solid #777; margin: 0 0 10px 0; }
 article.complete { background: #373; }
 article span { font-size: 0.8em; }

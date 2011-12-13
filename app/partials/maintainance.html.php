@@ -1,0 +1,1 @@
+<?php Pinp_View::flash('notice', "Site is down for maintainance. We'll be back soon."); ?>

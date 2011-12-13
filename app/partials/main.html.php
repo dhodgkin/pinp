@@ -1,4 +1,11 @@
 <article>
+  <h3>Pinp Hat</h3>
+  <p><?php echo BASEPATH; ?></p>
+  <p><?php echo APPPATH; ?></p>
+  <span class="meta">written Dec. 13 3:04am by dhodgkin.</span>
+</article>
+
+<article>
     <h3>Been Pinpin'</h3>
     <p>Development on Pinp is moving along.</p>
     <p>The view class is getting some pretty decent functionality. It now has several functions: display(), ::yield(), ::partial(), ::linkTo(), and a ::script() function is in the works.</p>

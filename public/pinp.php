@@ -12,31 +12,6 @@
  * @since       Pinp v 0.0.1
  */
 
-/*
- * APPLICATION ENVIRONMENT
- *
- * Set the apps environment. 
- */
-define('ENVIRONMENT', 'development');
-
-/*
- * ERROR REPORTING
- *
- * The error reporting level is determined by the environment.
- *
- * development: E_ALL
- * testing    : NONE
- * production : NONE
- */
-
-if (defined('ENVIRONMENT')) {
-    switch (ENVIRONMENT) {
-        case 'development': error_reporting(E_ALL); break;
-        case 'testing': case 'production': error_reporting(0); break;
-        default: exit('The application environment is not set correctly.');
-    }
-}
-
 /* Set BASEPATH */
 $sys_path = '../Pinp';
 if (realpath($sys_path) !== false) 
@@ -53,6 +28,8 @@ if (realpath($app_path) !== false)
 $app_path = rtrim($app_path, '/').'/';
 define("APPPATH", str_replace("\\", "/", $app_path));
 
+
+require BASEPATH . "config.php";
 require BASEPATH . "Pinp.php";
 
 $app = new Pinp('layout.html');

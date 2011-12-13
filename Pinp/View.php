@@ -27,8 +27,12 @@ class Pinp_View {
     }
 
     public static function yield() {
-        // TODO: add better handling of views
-        echo self::render('view', 'index.html');
+        if (ADMIN == true) {
+            echo self::render('view', 'admin.html');
+        } else {
+            // TODO: add better handling of views
+            echo self::render('view', 'index.html');
+        }
     }
 
     /* prepare the template, clean it up and ship it out for displaying */
@@ -70,6 +74,20 @@ class Pinp_View {
         } else {
             return $script = "<script src='js/" . $file . "' type='text/javascript'></script>";
         }
+    }
+
+    public static function flash( $level, $message ) {
+        $lvl = array(
+                    'notice' => 'Notice',
+                    'warn'   => 'Warning',
+                    'error'  => 'Error',
+                    'denied' => 'Access Denied'
+               );
+
+        echo "<article class='flash warn'>
+                <h3>" . $lvl[$level] . "</h3>
+                <p>" . $message . "</p>
+              </article>";
     }
 }
 

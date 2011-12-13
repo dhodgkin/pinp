@@ -1,4 +1,10 @@
   <header><?php Pinp_View::partial('header.html'); ?></header>
+  <div id="menu">
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </div>
   <div id="main" role="main">
     <section>
     <?php 

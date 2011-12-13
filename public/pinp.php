@@ -23,7 +23,7 @@ define("BASEPATH", str_replace("\\", "/", $sys_path));
 /* Set APPPATH */
 $app_path = '../app';
 if (realpath($app_path) !== false) 
-  $app_path = realpath($app_path).'/';
+    $app_path = realpath($app_path).'/';
 
 $app_path = rtrim($app_path, '/').'/';
 define("APPPATH", str_replace("\\", "/", $app_path));

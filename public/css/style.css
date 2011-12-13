@@ -7,12 +7,12 @@ a { color: #075fb2; text-decoration: none; }
 ul li { margin-top: 10px; }
 p { margin: 0 0 5px; }
 
-header {
-  text-align: center; margin: 0; padding: 0 0 20px 0; border-bottom: 1px solid #555; }
+header { text-align: center; margin: 0; padding: 0 0 20px 0; border-bottom: 1px solid #555; }
 header h1 { display: inline; font-size: 32px; }
-header h1 a:link, header h1 a:visited { color: #444; text-decoration: none; }
-header h2 { 
-  font-size: 40px; font-style: italic; color: #DDD; margin: 0; text-shadow: 1px 1px #777; }
+header h1 a:link, 
+header h1 a:visited { color: #444; text-decoration: none; }
+header h2 { font-size: 40px; font-style: italic; color: #DDD; margin: 0; text-shadow: 1px 1px #777; }
+header h3 { font-style: italic; margin: 0; text-shadow: 1px 1px #222; }
 header p { padding-top: 10px; font-weight: bold; }
 
 #container { 
@@ -25,20 +25,15 @@ header p { padding-top: 10px; font-weight: bold; }
 
 #ayb { padding: 5px 10px; }
 
-#pinpfork { 
-  background-color: #606860; padding: 5px 10px; text-align: center; font-weight: bold;
-    margin-top: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
-    text-shadow: 0 0 5px #222; }
-  #pinpfork a { color: #aaa; font-weight: bold;}
-  #pinpfork a:hover { color: #222; }
-  #pinpfork a:visited { color: #aaa; }
+#pinpfork { background-color: #606860; padding: 5px 10px; text-align: center; font-weight: bold; margin-top: 10px; -moz-border-radius: 5px; -webkit-border-radius: 5px; text-shadow: 0 0 5px #222; }
+#pinpfork a, 
+#pinpfork a:hover, 
+#pinpfork a:visited { color: #aaa; font-weight: bold; text-shadow: 1px 1px 5px #000; }
 
 #gitlive {}
 
-article {
-  border: 1px solid #eee; margin-top: 10px; padding: 15px 10px; 
-  color: #f2f6ff; background: #424242; text-shadow: 0 0 5px #222; }
-article h3 { border-bottom: 1px solid #777; margin: 0 0 10px 0; }
+article { border: 1px solid #eee; margin-top: 10px; padding: 15px 10px; color: #f2f6ff; background: #424242; text-shadow: 0 0 5px #555; }
+article h3 { border-bottom: 1px solid #777; margin: 0 0 10px 0; text-shadow: 1px 1px 5px #000; }
 article.complete { background: #373; }
 article span { font-size: 0.8em; }
 .meta { font-size: 10px; font-style: italic; color: #888; }

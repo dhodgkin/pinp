@@ -13,7 +13,7 @@ header h1 { display: inline; font-size: 32px; }
 header h1 a:link, header h1 a:visited { color: #444; text-decoration: none; }
 header h2 { 
   font-size: 40px; font-style: italic; color: #DDD; margin: 0; text-shadow: 1px 1px #777; }
-header p { padding-top: 10px; }
+header p { padding-top: 10px; font-weight: bold; }
 
 #container { 
   padding: 0 25px 25px 25px; background-color: black; border: 1px solid #d4d4d4; -moz-border-radius: 8px; -webkit-border-radius: 8px; }

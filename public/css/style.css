@@ -1,8 +1,8 @@
 body { font-family: "Lucida Grande", sans-serif; font-size: 12px; background-color: #e9eceb; color: #e2e6fe; margin: 35px auto; width: 50%; } 
 h1 { color: #383838; font-size: 2em; font-weight: bold; } 
 a { color: #075fb2; text-decoration: none; } 
-ul { margin: 5px 0; padding: 5px 10px; background-color: #606860; -moz-border-radius: 8px; -webkit-border-radius: 8px; }
-ul li { /*padding: 5px 10px;*/ display: inline-block; list-style-type: none; font-weight: bold; text-shadow: 1px 1px 5px #000; } 
+ul { margin: 5px 0; /*padding: 5px 10px;*/ background-color: #606860; -moz-border-radius: 8px; -webkit-border-radius: 8px; }
+ul li { padding: 5px 10px; display: inline-block; list-style-type: none; font-weight: bold; text-shadow: 1px 1px 5px #000; } 
 p { margin: 0 0 5px; } 
 header { text-align: center; } 
 header h1 { display: inline; font-size: 32px; } 

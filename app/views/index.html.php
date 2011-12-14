@@ -1,11 +1,12 @@
-  <header><?php Pinp_View::partial('header.html'); ?></header>
-  <div id="menu">
+  <header><?php Pinp_View::partial('header.html'); ?>
+    <div id="menu">
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="https://github.com/FourElementsDevelopment/pinp">Fork</a></li>
       <li><a href="/about">About</a></li>
     </ul>
   </div>
+  </header>
   <div id="main" role="main">
     <section>
     <?php 

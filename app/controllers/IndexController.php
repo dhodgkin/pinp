@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * AppController.php Application controller class.
+ * IndexController.php Controller to handle main page functionality
  *
  *  Pinp is a small php framework
  *
@@ -13,7 +13,10 @@
  * @filesource
  */
 
-class AppController extends PinpController() {}
+class IndexController extends PinpController {
+    public function index() {}
+    public function about() {}
+}
 
-/* End of file AppController.php */
-/* Location: ./app/controllers/AppController.php */
+/* End of file IndexController.php */
+/* Location: ./app/controllers/IndexController.php */

@@ -14,6 +14,8 @@
  */
 
 class Pinp_Controller {
+    // TODO: add controller related functionality
+
     private static $instance;
 
     public function __construct() {
@@ -21,7 +23,7 @@ class Pinp_Controller {
     }
   
  	public static function &get_instance() {
-		return self::$instance;
+	    return self::$instance;
 	}
 
 }
